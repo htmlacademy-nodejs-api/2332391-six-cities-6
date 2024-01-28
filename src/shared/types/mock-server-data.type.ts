@@ -3,7 +3,6 @@ export type MockServerData = {
   city: string[];
   adress: string[];
   hotelName: string[];
-  price: number[];
   website: string[];
   phone: string[];
   rentType: string[];
