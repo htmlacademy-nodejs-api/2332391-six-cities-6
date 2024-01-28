@@ -1,6 +1,6 @@
 {
     "api": {
-      "countries": [
+      "country": [
         "USA",
         "France",
         "Italy",
@@ -15,7 +15,7 @@
         "Mexico",
         "South Korea"
       ],
-      "cyties": [
+      "city": [
         "Rome",
         "London",
         "Paris",
