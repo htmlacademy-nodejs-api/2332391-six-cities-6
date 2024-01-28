@@ -1,7 +1,6 @@
 import { FileReader } from './file-reader.interface.js';
 import { readFileSync } from 'node:fs';
 import { Offer } from '../../types/index.js';
-import { argv } from 'node:process';
 
 export class TSVFileReader implements FileReader {
   private rawData = '';
@@ -18,12 +17,12 @@ export class TSVFileReader implements FileReader {
     if (!this.rawData) {
       throw new Error('File was not read');
     }
-    console.log(argv);
+
     return this.rawData
       .split('\n')
       .filter((row) => row.trim().length > 0)
       .map((line) => line.split('\t'))
-      .map(([country, city, adress, hotelName, price, webSite, phone,rentType]) => ({
+      .map(([country, city, adress, hotelName, price, webSite, phone, rentType]) => ({
         country,
         city,
         adress,
