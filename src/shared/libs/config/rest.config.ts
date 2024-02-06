@@ -10,7 +10,7 @@ export class RestConfig implements Config {
     const parsedOutput = config();
 
     if (parsedOutput.error) {
-      throw new Error('Can\'t read .env file. Perhaps the file does not exists.');
+      throw new Error('Can\'t read .env file. Perhaps the file does not exist.');
     }
 
     this.config = <DotenvParseOutput>parsedOutput.parsed;
