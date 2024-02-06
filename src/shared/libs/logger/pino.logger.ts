@@ -1,4 +1,4 @@
-import { Logger as PinoInstance } from 'pino';
+import { Logger as PinoInstance, pino } from 'pino';
 import { Logger } from './logger.interface.js';
 
 export class PinoLogger implements Logger {
