@@ -1,9 +1,10 @@
 export type MockServerData = {
-  country: string[];
-  city: string[];
-  adress: string[];
-  hotelName: string[];
-  website: string[];
-  phone: string[];
-  rentType: string[];
+  categories: string[];
+  titles: string[];
+  descriptions: string[];
+  offerImages: string[];
+  categoryImages: string[];
+  users: string[];
+  emails: string[];
+  avatars: string[];
 };
