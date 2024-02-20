@@ -8,5 +8,7 @@ export const Component = {
   CategoryService: Symbol.for('CategoryService'),
   CategoryModel: Symbol.for('CategoryModel'),
   OfferService: Symbol.for('OfferService'),
-  OfferModel: Symbol.for('OfferModel')
+  OfferModel: Symbol.for('OfferModel'),
+  CommentService: Symbol.for('CommentService'),
+  CommentModel: Symbol.for('CommentModel')
 } as const;
